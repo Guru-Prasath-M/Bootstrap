@@ -5,6 +5,8 @@
     <body>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a href="#" class="navbar-brand">Logo</a>
+
+            
             <div class="ml-auto">
                 <ul class="navbar nav">
                     <li><a href="./index.html" class="nav-link text-light" >Home</a></li>
@@ -18,29 +20,27 @@
             </div>
         </nav>
 
+        <h3>Login Page</h3>
+        <hr>
 
-        <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-    <div class="card p-4 shadow-sm" style="width: 100%; max-width: 400px;">
-      <h3 class="text-center mb-3">Login</h3>
-      <form action="#" method="post">
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
-        </div>
-        <div class="mb-3">
-          <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
-        </div>
-        <button type="submit" class="btn btn-dark w-100">Login</button>
-      </form>
-      <p class="text-center mt-3 mb-0">
-        <small>Don't have an account? <a href="#">Register</a></small>
-      </p>
-    </div>
-  </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+        <form action="/login">
+          <div class="form-group">
+            <label for="">Email</label>
+            <input type="email" class="form-control">
+          </div>
 
-        <div>
-            <h3>Login Page</h3>
+          <div class="form-group">
+            <label for="">Password</label>
+            <input type="password" class="form-control">
+          </div>
+          <input type="submit" value="Login" class="btn btn-success"> 
+
+        </form>
+        </div>
+         </div>
         </div>
     </body>
 </html>
